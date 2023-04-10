@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// divide part will give us the pivot index
 int divide(int arr[],int start, int end){
     int pivot = arr[start];
     int count =0;
@@ -24,6 +25,7 @@ int divide(int arr[],int start, int end){
     }
     return pivotindx;
 }
+// quicksort part will call ought the divide functions
 void quicksort(int arr[],int start,int end){
     if(start>=end){
         return;

@@ -4,7 +4,7 @@
 using namespace std;
  
 void merge(int arr[], int p, int q, int r) {
-   
+   //size of the two subarrays is given below
   int n1 = q - p + 1;
   int n2 = r - q;
 
